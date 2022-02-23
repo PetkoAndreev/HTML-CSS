@@ -1,0 +1,14 @@
+@import url(./reset.css);
+
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}

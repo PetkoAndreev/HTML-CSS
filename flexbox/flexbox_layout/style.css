@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: lightgray;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+header, footer {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+
+main {
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: 60%;
+}
+
+aside {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
+}

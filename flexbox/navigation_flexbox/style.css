@@ -1,0 +1,17 @@
+@import url(./reset.css);
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header ul {
+    display: flex;
+    gap: 5px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}

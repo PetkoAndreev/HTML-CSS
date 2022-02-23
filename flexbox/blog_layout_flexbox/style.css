@@ -1,0 +1,27 @@
+@import url(./reset.css);
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}

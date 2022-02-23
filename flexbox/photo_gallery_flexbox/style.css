@@ -1,0 +1,15 @@
+@import url(./reset.css);
+
+body, ul, li {
+    display: flex;
+    gap: 12px;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+/* •	Add section with class gallery (section.gallery)
+•	Add unordered list with list items and images inside
+•	Change the body, ul and li display property to flex
+•	Set the ul property justify-content to be equal to space-between */
