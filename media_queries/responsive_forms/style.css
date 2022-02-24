@@ -1,0 +1,17 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+p {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 2px;
+    left: 70px;
+}
+
+@media screen and (min-width: 768px) {
+	body fieldset {
+		width: 400px;
+	}
+}
