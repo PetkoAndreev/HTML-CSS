@@ -1,0 +1,323 @@
+﻿@import url(./reset.css);
+@import url(./components.css);
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --color-blue: #0072b1;
+    --color-beige-light: #faf9f7;
+    --color-beige: #f1ece5;
+    --color-gray: #605e5c;
+    --color-gray-light: #e6e5e4;
+    --color-gray-dark: #66686c;
+    --color-red-orange: #b24020;
+    /* --section-padding-y: 180px; */
+    --section-padding: 48px 120px;
+    /* --section-padding-sm: 48px 120px; */
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: var(--section-padding);
+    position: relative;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.header .logo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 100px;
+    width: 300px;
+    height: 150px;
+}
+
+.header .head.section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.header .head a {
+    text-decoration: none;
+    color: var(--color-gray-dark);
+    font-weight: bold;
+}
+
+.header .head .btn {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.hero {
+    padding: var(--section-padding);
+    position: relative;
+}
+
+.hero .content {
+    width: 60%;
+}
+
+.hero .content .title {
+    color: var(--color-blue);
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 1.2;
+    margin-bottom: 21px;
+}
+
+.hero .content form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.hero .content form input {
+    padding: 10px 6px;
+}
+
+.hero .content form input:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.hero .content form a {
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.hero .content form .pwdShow {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .content form .pwdShow input {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.hero .content form .pwdShow p {
+    margin-left: -45px;
+    padding-top: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-gray-dark)
+}
+
+
+.hero .hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 39%;
+}
+
+/* Section layout */
+
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.section .col-sm {
+    width: 45%;
+}
+
+.section .col-lg {
+    width: calc(55% - 100px);
+}
+
+.subTitle {
+    font-size: 64px;
+}
+
+/* Jobs */
+
+.jobs {
+    padding: 160px 120px;
+    background-color: var(--color-beige-light);
+}
+
+.jobs .subTitle {
+    padding-right: 300px
+}
+
+.jobs .options {
+    width: 46%;
+}
+
+.jobs .options h3 {
+    color: var(--color-gray);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.jobs .options .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Post jobs */
+
+.postJobs {
+    padding: var(--section-padding);
+    background-color: var(--color-beige);
+}
+
+.postJobs .subTitle {
+    color: var(--color-red-orange);
+    padding-right: 120px
+}
+
+.postJobs .btn {
+    font-size: 21px;
+    margin-top: 35px;
+    margin-left: -200px;
+    border-radius: 35px;
+    font-weight: bold;
+}
+
+/* Join section */
+
+.join {
+    height: 85vh;
+    padding: var(--section-padding);
+    background-image: url("../images/background.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+}
+
+.join .title {
+    color: var(--color-blue);
+    font-size: 68px;
+    line-height: 1.2;
+    margin-bottom: 21px;
+}
+
+.join .btn {
+    min-width: unset;
+    padding: 10px 12px;
+}
+
+/* Work section */
+.work {
+    position: relative;
+    padding: 220px 0;
+    background-color: var(--color-beige-light);
+}
+
+.work .col-lg {
+    width: 70%;
+    padding: var(--section-padding);
+}
+
+.work .col-lg .subTitle {
+    margin-bottom: 15px;
+    color: var(--color-blue)
+}
+
+.work .col-lg p {
+    font-size: 45px;
+}
+
+.work .col-sm {
+    margin: 100px;
+}
+
+.work .col-sm img {
+    position: absolute;
+    top: 180px;
+    right: 450px;
+    width: 500px;
+    height: 500px;
+}
+
+/* Connect and Learn section */
+
+.connect {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.connect .col-lg {
+    padding: var(--section-padding);
+    width: calc(50% - 50px);
+}
+
+.connect .col-lg .connect-img {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.connect .col-lg .subTitle {
+    margin-bottom: 30px;
+}
+
+.connect .col-lg .btn {
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.connect .col-sm {
+    width: 50%;
+    padding: var(--section-padding);
+}
+
+.connect .col-sm .learn-img {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.connect .col-sm .subTitle {
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
+
+/* Footer */
+.foot {
+    background-color: var(--color-beige-light);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.foot .logo--wrapper {
+    position: relative;
+    width: 30%;
+    /* padding-right: 850px; */
+}
+
+.foot .logo--wrapper .logo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 50px;
+}
+
+.foot .foot--menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    padding-right: 300px;
+}
+
+.foot .foot--menu ul li:first-child {
+    font-weight: bold;
+    margin-bottom: 15px;
+}

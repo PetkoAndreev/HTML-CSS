@@ -1,2 +1,5 @@
 Color from image - https://imagecolorpicker.com/
 FontAwesome - @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+https://cdnjs.com/libraries/font-awesome
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
+Box Shadow - https://html-css-js.com/css/generator/box-shadow/
