@@ -24,8 +24,6 @@ html {
 .header {
     padding: var(--section-padding);
     position: relative;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 .header .logo-img {
@@ -102,12 +100,13 @@ html {
     padding-right: 50px;
 }
 
-.hero .content form .pwdShow p {
+.hero .content form .pwdShow a {
     margin-left: -45px;
     padding-top: 13px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--color-gray-dark)
+    color: var(--color-gray-dark);
+    cursor: pointer;
 }
 
 
@@ -196,7 +195,6 @@ html {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* width: 100%; */
 }
 
 .join .title {
