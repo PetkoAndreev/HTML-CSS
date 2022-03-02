@@ -1,0 +1,84 @@
+@import url(./reset.css);
+/* Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 50px 100px;
+}
+
+.hero .hero__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.hero .hero__main .hero__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.hero .hero__main p {
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: 0.75pt;
+    margin-right: 32px;
+    color: #7f7f7f;
+}
+
+.hero .hero__main .firstParagraph {
+    padding-bottom: 15px;
+}
+
+.hero .hero__main .secondParagraph {
+    margin-bottom: 50px;
+}
+
+.hero .hero__main ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.hero .hero__main ul li img {
+    width: 65px;
+}
+
+.hero .hero__main ul li .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hero .hero__main ul li .wrapper h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.hero .hero__main ul li .wrapper p {
+    padding-bottom: 10px;
+}
+
+.hero .hero__img {
+    width: calc(50% - 100px);
+    padding-right: 100px;
+}
+
+.hero .hero__img img {
+    height: 70vh;
+}

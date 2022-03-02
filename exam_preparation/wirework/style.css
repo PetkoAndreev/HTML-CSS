@@ -1,0 +1,257 @@
+@import url(./reset.css);
+@import url(./components.css);
+/* Font Awesome 
+wrench, unlock-alt, legal, key*/
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+:root {
+    --color-white: #ffffff;
+    --color-gray-dark: #2c383b;
+    --color-gray-light: #ececec;
+    --color-blue-subtite-2: #445984;
+    --color-gray: #dedede;
+    --color-gray-very-light: #a3a2a9;
+    --color-orange: #e24e2a;
+    --color-green: #1b9772;
+    --color-gray-main: #383838;
+    --color-gray-light-main: #626868;
+    --color-green-footer-p: #5bb397;
+    --color-green-footer-p-b: #9bd4c5;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header Layout */
+/* Header top */
+
+.hero {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-image: url("./images/banner.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.hero-head {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+    padding-bottom: 15px;
+}
+
+.hero-head .hero-head-title {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 60px;
+    vertical-align: bottom;
+    width: 25%;
+}
+
+.hero-head .hero-head-title .hero-head-mainTitle {
+    font-size: 41px;
+    font-weight: bold;
+    color: var(--color-gray-dark);
+    padding-right: 15px;
+    border-right: 2px solid var(--color-gray);
+}
+
+.hero-head .hero-head-title .hero-head-subTitle-1 {
+    font-size: 12px;
+    color: var(--color-gray);
+    padding-top: 22px;
+    padding-left: 15px;
+}
+
+.hero-head .hero-head-title .hero-head-subTitle-2 {
+    font-size: 12px;
+    color: var(--color-blue-subtite-2);
+    padding-top: 22px;
+    padding-left: 3px;
+}
+
+.hero-head .hero-head-menu {
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+.hero-head .hero-head-menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+
+.hero-head .hero-head-menu ul li {
+    background-color: var(--color-gray-light);
+    margin-top: 15px;
+    padding: 20px 18px;
+}
+
+.hero-head .hero-head-menu ul li:hover {
+    background-color: var(--color-orange);
+    cursor: pointer;
+    transition: 300ms;
+    color: var(--color-white);
+}
+
+.hero-head .hero-head-menu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-gray-dark);
+}
+
+/* Header bottom */
+
+.hero-tail {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-orange);
+    height: 110px;
+
+}
+
+.hero-tail .hero-tail-desc {
+    color: var(--color-gray);
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+}
+
+.hero-tail .hero-tail-desc b {
+    font-weight: bold;
+}
+
+.hero-tail .hero-tail-desc u {
+    color: var(--color-white);
+}
+
+/* Main layout */
+/* Main Icons */
+
+.icons {
+    width: 100%;
+    padding: 50px 100px 100px 100px;
+    background-color: var(--color-gray-main);
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icons ul li {
+    vertical-align: center;
+    text-align: center;
+}
+
+.icons ul li i {
+    width: 90px;
+    height: 90px;
+    vertical-align: center;
+    text-align: center;
+    padding: 12px 7px 12px 7px;
+    margin-bottom: 20px;
+    background-color: var(--color-orange);
+    background-size: 100px 100px;
+    color: var(--color-white);
+}
+
+.icons ul li h3 {
+    font-size: 16px;
+    color: var(--color-white);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--color-gray-light-main);
+}
+
+.icons ul li p {
+    font-size: 12px;
+    color: var(--color-gray-light-main);
+}
+
+/* Main Maecenas */
+
+.maecenas {
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-white);
+    padding: 70px 0;
+}
+
+.maecenas .maecenas-title {
+    font-size: 26px;
+    color: var(--color-gray-light-main);
+    padding-bottom: 5px;
+}
+
+.maecenas .maecenas-desc {
+    font-size: 13px;
+    color: var(--color-gray);
+}
+
+.maecenas .maecenas-btn {
+    margin-top: 20px;
+    padding: 12px 35px;
+    font-size: 12px;
+    letter-spacing: 1pt;
+    text-align: center;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border: none;
+}
+
+/* Main Col */
+.col {
+    background-color: var(--color-gray-main);
+    color: var(--color-white);
+}
+
+.col ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.col ul li h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.col ul li p {
+    font-size: 12px;
+    color: var(--color-gray-light-main);
+    padding: 10px 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-green);
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-white);
+    padding: 100px 200px;
+}
+
+footer p {
+    color: var(--color-green-footer-p);
+}
+
+footer p b {
+    color: var(--color-green-footer-p-b);
+}

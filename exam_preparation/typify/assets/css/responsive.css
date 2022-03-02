@@ -1,0 +1,114 @@
+@media screen and (max-width: 600px) {
+
+    body {
+        width: 600px;
+        max-width: 600px;
+    }
+
+    .banner {
+        padding: 8em 0 6em 0;
+        width: 100%;
+    }
+
+    .banner h2 {
+        font-size: 1.5em;
+        width: 94%;
+        margin-left: 18px;
+    }
+
+    .banner li {
+        width: 100%;
+    }
+
+    .banner a {
+        display: inline-block;
+        width: 94%;
+    }
+
+    .features {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .features .feature {
+        width: 45%;
+        margin-left: 28px;
+    }
+
+    .features .feature:first-child {
+        margin-top: -50px;
+    }
+
+    .wrapper .special {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .wrapper .style2 .special {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .features .feature p {
+        font-size: 17px;
+    }
+
+    .major {
+        width: 50%;
+        margin-left: -5px;
+    }
+
+    .wrapper .style2 {
+        max-width: 600px;
+    }
+
+    header {
+        width: 94%;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        width: 99%;
+        padding-left: 20px;
+    }
+
+    .grid-form .form-control {
+        width: 90%;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 90%;
+    }
+
+    .grid-form .form-control {
+        width: 90%;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 90%;
+    }
+
+    .grid-form .actions li {
+        width: 100%;
+    }
+
+    .grid-form .actions li input {
+        display: inline-block;
+        width: 90%;
+       margin-left: -65px;
+    }
+
+    .footer:before {
+        background-color: #ddd;
+        content: "";
+        height: 1px;
+        left: 22%;
+        position: absolute;
+        top: 0;
+        width: 60%;
+      }
+
+}

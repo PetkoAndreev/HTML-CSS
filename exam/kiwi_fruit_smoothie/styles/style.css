@@ -1,0 +1,114 @@
+@import url(./reset.css);
+/* Font Awesome */
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+/* PT Serif font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --color-white: #ffffff;
+    --color-green: #118300;
+    --color-green-border: #63b162;
+}
+
+html {
+    margin-top: 50px;
+    margin-left: 25px;
+    font-family: 'PT Serif', serif;
+}
+
+.hero {
+    -webkit-box-shadow: 0px 0px 10px 0px #000000;
+    box-shadow: 0px 0px 10px 0px #000000;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.recipe {
+    width: 50%;
+    height: 41vh;
+    background-image: url("../image/image1.png");
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-position: 0 0;
+}
+
+.recipe .recipe-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted var(--color-green);
+}
+
+.recipe .recipe-subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 35px;
+}
+
+.recipe .recipe-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 25px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.recipe .recipe-elements span {
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.recipe .recipe-desc {
+    padding-left: 25px;
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.recipe .recipe-details {
+    width: 92%;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.recipe .recipe-details td,
+.recipe .recipe-details th {
+    border: 1px solid var(--color-green-border);
+    padding: 5px 10px;
+}
+
+.recipe .recipe-details th {
+    font-weight: bold;
+}
+
+/* Second section - image */
+
+.img {
+    width: calc(50% - 20px);
+    height: 41vh;
+}
+
+.img img {
+    padding-top: 18px;
+    padding-bottom: 32px;
+    height: 41vh;
+    margin-right: 0;
+    padding-right: 0;
+    width: 95%;
+}

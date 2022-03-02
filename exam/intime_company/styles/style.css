@@ -1,0 +1,303 @@
+@import url(./reset.css);
+@import url(./components.css);
+/* Font Awesome */
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+:root {
+    --color-white: #ffffff;
+    --color-blue-heading: #21a2b5;
+    --color-blue-subscribe: #6bbfff;
+    --color-brown-text: #655a4d;
+    --color-black-opacity: rgba(20, 20, 23, .7);
+    --color-blue-btn-ready: #008cba;
+    --color-gray-btn-primary: #454545;
+    --color-gray-background: #eef0f1;
+    --color-gray-copyright: #262b2f;
+    --color-blue-copyright: #097181;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header */
+
+.head {
+    background-color: var(--color-white);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 120px;
+}
+
+/* Header Title */
+
+.head .head-title {
+    font-size: 32px;
+}
+
+.head .head-title span {
+    color: var(--color-blue-heading);
+    text-transform: capitalize;
+}
+
+/* Header Navigation */
+.head .head-nav {
+    padding-right: 100px;
+}
+
+.head .head-nav .head-nav-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.head .head-nav .head-nav-elements a {
+    text-decoration: none;
+    font-size: 21px;
+    color: var(--color-brown-text);
+    text-transform: uppercase;
+}
+
+.head .head-nav .head-nav-elements a:hover {
+    border-bottom: 3px solid var(--color-blue-heading);
+    border-radius: 1px;
+}
+
+/* Main */
+.hero .section {
+    width: 100%;
+    height: 50vh;
+}
+
+.hero .section .section-container .section-title {
+    font-size: 32px;
+    color: var(--color-brown-text);
+}
+
+.hero .section .section-container hr {
+    background-color: var(--color-blue-heading);
+    width: 25%;
+    height: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Main Hero */
+.hero .hero-content {
+    position: relative;
+    background-image: url("../images/slide2.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+.hero .hero-content .content-desc {
+    position: absolute;
+    top: 37%;
+    left: 12%;
+    width: 37vw;
+    background-color: var(--color-black-opacity);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .hero-content .content-desc span {
+    font-size: 60px;
+    line-height: 1.2;
+    color: var(--color-white);
+}
+
+.hero .hero-content .content-desc .btn {
+    width: 50%;
+    margin-top: 15px;
+    font-size: 27px;
+    text-align: center;
+    color: var(--color-white);
+    padding: 10px 15px;
+    background-color: var(--color-blue-btn-ready);
+    border: none;
+    border-radius: 25px;
+}
+
+/* Main Welcome */
+.hero .hero-welcome {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero .hero-welcome .welcome-desc {
+    font-size: 21px;
+    text-align: center;
+    color: var(--color-brown-text);
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+/* Main Services */
+
+.hero .hero-services {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-gray-background);
+}
+
+.hero .hero-services .section-container hr {
+    width: 45%;
+    background-color: var(--color-brown-text);
+}
+
+.hero .services-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 50px 350px;
+}
+
+.hero .services-elements .services-el {
+    width: calc(33.33%-35px);
+    overflow: hidden;
+    border-radius: 7px;
+    text-align: center;
+    background-color: var(--color-white);
+}
+
+.hero .services-elements .services-el .el-img {
+    height: 20vh;
+    width: 20vw;
+    margin-bottom: 35px;
+}
+
+.hero .services-elements .services-el .el-title {
+    font-size: 27px;
+    color: var(--color-brown-text);
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.hero .services-elements .services-el .el-desc {
+    font-size: 22px;
+    color: var(--color-brown-text);
+    padding: 0 30px;
+}
+
+.hero .services-elements .services-el .btn-primary {
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+/* Main Subscribe */
+.hero .hero-subscribe {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #393f43;
+    color: var(--color-white)
+}
+
+.hero .hero-subscribe .section-container .section-title {
+    color: var(--color-white)
+}
+
+.hero .hero-subscribe .section-container hr {
+    background-color: var(--color-white);
+}
+
+.hero .hero-subscribe .subscribe-desc {
+    margin-bottom: 25px;
+}
+
+.hero .hero-subscribe .subscribe-form .form-input {
+    background-color: #545a5e;
+    border: none;
+    border-radius: 3px;
+    width: 20vw;
+    height: 3vh;
+    font-size: 16px;
+    padding-left: 10px;
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.hero .section.hero-subscribe .subscribe-form .btn-primary {
+    background-color: var(--color-blue-subscribe);
+    margin-top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #2f3539;
+    margin-top: -2px;
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+footer .contacts {
+    width: 100%;
+    padding: 50px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer ul:last-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer ul:last-child li:first-child {
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+footer ul li:first-child {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+footer ul li i {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    width: 100%;
+    height: 5vh;
+    background-color: var(--color-gray-copyright);
+    color: var(--color-white);
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -2px;
+}
+
+.copyright span {
+    color: var(--color-blue-copyright);
+}
