@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Azbuki";
+    src: url("Azbuki-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Adine_Kirnberg";
+    src: url("Adine_Kirnberg.ttf");
+}
+
+@font-face {
+    font-family: "Adventure";
+    src: url("Adventure.ttf");
+}
+
+@font-face {
+    font-family: "AllegrettoScriptOne";
+    src: url("AllegrettoScriptOne.ttf");
+}
+
+@font-face {
+    font-family: "BikhamCyrScript";
+    src: url("BikhamCyrScript.ttf");
+}
+
+@font-face {
+    font-family: "EkaterinaVelikayaTwo";
+    src: url("EkaterinaVelikayaTwo.ttf");
+}
+
+@font-face {
+    font-family: "Gloria_script";
+    src: url("Gloria_script.ttf");
+}
+
+@font-face {
+    font-family: "larisa_script";
+    src: url("larisa_script.ttf");
+}
+
+@font-face {
+    font-family: "Majestic";
+    src: url("Majestic.ttf");
+}
+
+@font-face {
+    font-family: "Pompadur";
+    src: url("Pompadur.ttf");
+}
+
+.Azbuki {
+    font-family: 'Azbuki', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+
+.Adine_Kirnberg {
+    font-family: 'Adine_Kirnberg', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.adventure {
+    font-family: 'Adventure', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+
+.AllegrettoScriptOne {
+    font-family: 'AllegrettoScriptOne', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.BikhamCyrScript {
+    font-family: 'BikhamCyrScript', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.EkaterinaVelikayaTwo {
+    font-family: 'EkaterinaVelikayaTwo', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.Gloria_script {
+    font-family: 'Gloria_script', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.larisa_script {
+    font-family: 'larisa_script', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.Majestic {
+    font-family: 'Majestic', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
+
+.Pompadur {
+    font-family: 'Pompadur', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 41px;
+}
