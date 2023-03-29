@@ -1,0 +1,203 @@
+@import url(./reset.css);
+/* Font Awesome */
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+
+header.head {
+    background-image: url("../images/landing-photo.jpg");
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    width: 100%;
+    height: 80vh;
+}
+
+.head-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.head-title {
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+    padding-left: 300px;
+}
+
+.head-nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 158px;
+    padding-right: 200px;
+    gap: 50px;
+}
+
+.head .head-nav .head-nav-elements a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+.head .head-nav .head-nav-elements a:hover {
+    border-radius: 30px;
+    background-color: #370511;
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.head .head-book {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+.head .head-home {
+    font-size: 27px;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.head .head-each {
+    padding-top: 41px;
+}
+
+.head p {
+    font-size: 17px;
+    padding-left: 300px;
+    padding-top: 5px;
+
+}
+
+.head-btn-primary {
+    border-radius: 30px;
+    background-color: #370511;
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+/* Main */
+.hero {
+    width: 100%;
+}
+
+.hero h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero p {
+    text-align: center;
+    color: #909195;
+    padding-top: 15px;
+}
+
+.hero .city-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 70%;
+}
+
+.hero .city-elements .city-el {
+    width: 21vw;
+    flex: 0 0 33.333333%;
+}
+
+.hero .city-elements .city-el .el-img {
+    height: 20vh;
+    width: 20vw;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hero .city-elements .city-el .el-title {
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.hero .city-elements .city-el .el-desc {
+    font-size: 11px;
+    text-align: left;
+    width: 15vw;
+    margin-left: 50px;
+}
+
+.hero .city-elements .city-el .btn-city {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color: white;
+}
+
+footer .contacts {
+    width: 100%;
+    padding: 15px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .contacts .footer-title {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 11vh;
+}
+
+footer .contacts .elements .element {
+    padding: 15px 5px;
+}
+
+footer ul:last-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer ul:last-child li:first-child {
+    width: 100%;
+    margin-bottom: -50px;
+    margin-top: 7vh;
+}
