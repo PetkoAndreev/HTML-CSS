@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "azkubernetes-f88b"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "azkubernetes-f88b"
+  template:
+    metadata:
+      labels:
+        app: "azkubernetes-f88b"
+    spec:
+      containers:
+        - name: "azkubernetes-f88b"
+          image: "azacrgit.azurecr.io/azkubernetes"
+          ports:
+          - containerPort: 80
